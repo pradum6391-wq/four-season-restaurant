@@ -317,10 +317,10 @@ The website was checked on:
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](./screenshots/home.png)
+![Home Page](./Screenshots/home.png)
 
 ### Menu Page
-![Menu Page](./screenshots/menu.png)
+![Menu Page](./Screenshots/menu.png)
 
 ### About Page
 
