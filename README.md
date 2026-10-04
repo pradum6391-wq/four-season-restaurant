@@ -336,7 +336,7 @@ The website was checked on:
 
 ### Cancellation Policy Page Responsiveness
 
-![Cancellation Policy View](./cancellation-policy.html)
+![Cancellation Policy View](./Screenshots/Cancellation-policy.png)
 
 ### Footer View
 
