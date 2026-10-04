@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Four Seasons Resturant</title>
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+    integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- logo + Navigation -->
+  <header class="navbar">
+
+    <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="./index.html" class="logo">
+        <img src="./images/logo.png" alt="Four Season Restaurant Logo">
+      </a>
+
+      <!-- Center Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="./index.html">Home</a>
+        <div class="menu-dropdown">
+
+          <a href="menu.html" class="menu-link">
+            Menu
+            <span class="menu-arrow">⌄</span>
+          </a>
+
+          <div class="dropdown-content">
+
+            <a href="menu.html#beverages">BEVERAGES AND SOUP</a>
+            <a href="menu.html#sandwich">SANDWICH AND SHAKES</a>
+            <a href="menu.html#chinese">TIT-BIT AND CHINESE CUISINE</a>
+            <a href="menu.html#continental">CONTINENTAL AND ITALIAN CUISINE</a>
+            <a href="menu.html#starter">STARTER AND TANDOOR SE</a>
+            <a href="menu.html#paneer">PANEER SPECIAL AND MAIN COURSE</a>
+            <a href="menu.html#dal">DAL-E-BAHAR AND RICE</a>
+            <a href="menu.html#biryani">BIRYANI AND INDIAN BREAD</a>
+            <a href="menu.html#raita">RAITA AND PAPAD</a>
+            <a href="menu.html#salad">SALAD AND DESSERT</a>
+            <a href="menu.html#icecream">ICE CREAM AND ALOO KULCHA’S</a>
+            <a href="menu.html#gobhi">GOBHI AND ONION KULCHA’S</a>
+            <!-- <a href="menu.html#spl">SPL. AND PANER KULCHA’S</a>
+            <a href="menu.html#mix">MIX AND DAL KULCHA’S</a>
+            <a href="menu.html#chur">CHUR CHUR AND NUTRI KULCHA’S</a>
+            <a href="menu.html#babycorn">BABYCORN AND MUSHROOM KULCHA’S</a> -->
+
+          </div>
+
+        </div>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+
+      <!-- Right Buttons -->
+      <div class="nav-buttons">
+        <a href="#" class="login-btn">Login</a>
+        <a href="#" class="register-btn">Register</a>
+      </div>
+
+      <!-- Hamburger -->
+      <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <!-- =========================
+     HERO SLIDER
+========================= -->
+
+    <section class="hero-slider">
+
+      <div class="slides">
+
+        <!-- Slide 1 -->
+        <div class="slide active">
+          <img src="./images/FS.jpg" alt="Delicious Food">
+
+          <div class="slide-content">
+            <h1>Welcome to Four Season</h1>
+            <p>Delicious food, unforgettable moments.</p>
+
+            <a href="menu.html" class="slider-btn">
+              Explore Menu
+            </a>
+          </div>
+        </div>
+
+
+        <!-- Slide 2 -->
+        <div class="slide">
+          <img src="./images/FS-2.jpg" alt="Restaurant Food">
+
+          <div class="slide-content">
+            <h1>Fresh & Delicious</h1>
+            <p>Made with fresh ingredients and love.</p>
+
+            <a href="menu.html" class="slider-btn">
+              View Menu
+            </a>
+          </div>
+        </div>
+
+
+        <!-- Slide 3 -->
+        <div class="slide">
+          <img src="./images/FS-3.jpg" alt="Restaurant">
+
+          <div class="slide-content">
+            <h1>Celebrate With Us</h1>
+            <p>Make your special moments memorable.</p>
+
+            <a href="contact.html" class="slider-btn">
+              Book a Table
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Previous Button -->
+      <button class="slider-arrow prev" id="prevBtn">
+        &#10094;
+      </button>
+
+
+      <!-- Next Button -->
+      <button class="slider-arrow next" id="nextBtn">
+        &#10095;
+      </button>
+      <!-- Dots -->
+      <div class="slider-dots" id="sliderDots">
+        <button class="dot active" data-slide="0"></button>
+        <button class="dot" data-slide="1"></button>
+        <button class="dot" data-slide="2"></button>
+      </div>
+    </section>
+
+    <section class="menu-section">
+      <div class="menu-container">
+        <!-- Card 1 -->
+        <div class="food-card" id="continental">
+          <a href="./menu.html"><img src="./images/m1.jpg" alt="White Sauce Pasta"></a>
+          <h3>WHITE SAUCE PASTA</h3>
+          <p>220.00 ₹</p>
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="food-card" id="beverages">
+          <a href="./menu.html"><img src="./images/m2.jpg" alt="White Sauce Pasta"></a>
+          <h3>WHITE CHENA (1PC)</h3>
+          <p>55.00 ₹</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="food-card">
+          <a href="./menu.html"><img src="./images/m3.jpg" alt="White Sauce Pasta"></a>
+          <h3>VEG. SWEET CORN SOUP</h3>
+          <p>130.00 ₹</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="food-card">
+          <a href="./menu.html"><img src="./images/m4.jpg" alt="White Sauce Pasta"></a>
+          <h3>VEG. CLEAR SOUP</h3>
+          <p>110.00 ₹</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-links">
+      <div class="footer-links-container">
+
+        <!-- Column 1 -->
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="menu.html">Shop</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="footer-column">
+          <h3>Useful Links</h3>
+
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="cancellation-policy.html">Cancellation Policy</a>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="./index.html" target="_blank" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="./index.html" target="_blank" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="./index.html" target="_blank" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="mailto:pradum6391@gmail.com" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- copyrights + links -->
+  <footer>
+    <div id="footer">
+      <p>© 2026 FOUR SEASONS. All Rights Reserved</p>
+    </div>
+  </footer>
+
+
+
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
